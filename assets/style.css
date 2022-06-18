@@ -1,0 +1,80 @@
+*{
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;
+   
+}
+.main-body{
+    background-image: url("images/bg2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.footer-body{
+    background-image: url("images/foot-bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 150px;
+    height: 150px;
+
+}
+.box-os{
+    width: 75px;
+    height: 75px;
+}
+.bg-grey{
+    background-color: rgba(0, 0, 0, 0.263);
+}
+.none{
+    display: none;
+}
+.menuBtn{
+    display: none;
+  }
+.navList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.form{
+    display: none;
+}
+.popup{
+    position: absolute;
+    display: block;
+    top: 27%;
+    left: 50%;
+    transition:ease-out 2s;
+    
+}
+@media screen and (max-width:576px) {
+    
+    .menuBtn{
+        display: flex;
+      }
+    .navList{
+        display: none;
+    }
+    .gone{
+        display: none;
+    }
+    .banner{
+        height: 400px !important;
+    }
+    .serveHeads{
+        margin-top: 20px;
+    }
+    .form{
+        width: 90% !important;
+        margin:0 auto ;
+        left: 5%;
+
+    }
+    
+}
